@@ -1,0 +1,162 @@
+/* -------------------------------------- */
+/* MOBILE & TABLET RESPONSIVE FIXES       */
+/* -------------------------------------- */
+
+@media (max-width: 992px) {
+
+    /* NAVBAR */
+    .nv {
+        display: none; /* Hide desktop nav */
+    }
+    .srch {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .logo {
+        width: 70%;
+    }
+
+    /* CAROUSEL TEXT */
+    .sldt {
+        width: 80%;
+        left: 10%;
+        top: 20%;
+        text-align: center;
+    }
+    .sldt h1 {
+        font-size: 35px;
+    }
+    .sldt p {
+        font-size: 18px;
+    }
+    .sld {
+        height: 300px;
+        filter: blur(2px) brightness(0.5);
+    }
+
+    /* PRODUCT CARDS */
+    .crdiv {
+        margin: 0 20px;
+    }
+    .crds img {
+        height: 150px;
+    }
+    .btnn {
+        width: 60%;
+    }
+
+    /* ICON SECTIONS */
+    .icp {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 50px 10px;
+    }
+    .icp div i {
+        width: 70px;
+        padding: 15px;
+        font-size: 25px;
+    }
+    .icp div p {
+        width: auto;
+        font-size: 18px;
+    }
+
+    /* SERVICES PAGE */
+    .srv {
+        margin: 50px 20px !important;
+        flex-wrap: wrap;
+    }
+
+    /* SIGN-IN FORM */
+    .hfrm p {
+        margin: 20px 20px;
+        font-size: 16px;
+    }
+    .frminp input {
+        width: 80%;
+        margin: 15px auto;
+    }
+    .frmbtn {
+        width: 70% !important;
+    }
+
+    /* ABOUT SECTION */
+    .abt {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .abt h2 {
+        font-size: 2rem;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .abt p {
+        margin: 20px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    /* SUPPORT CARDS */
+    .sprtd {
+        width: 100% !important;
+        margin: 10px 0;
+    }
+
+    /* FOOTER */
+    .ftr {
+        padding: 20px;
+        text-align: center;
+    }
+    .ic {
+        margin: 20px auto;
+        width: 100%;
+        font-size: 30px;
+    }
+    .ic a {
+        margin: 0 15px;
+    }
+}
+
+/* SMALL MOBILES (max-width: 600px) */
+@media (max-width: 600px) {
+
+    .he1 {
+        font-size: 30px;
+        margin: 40px 0;
+    }
+
+    .sline,
+    .line {
+        margin: 20px auto;
+        width: 60%;
+    }
+
+    /* Extra small carousel height */
+    .sld {
+        height: 220px;
+    }
+    .sldt h1 {
+        font-size: 28px;
+    }
+    .sldt p {
+        font-size: 15px;
+    }
+
+    /* Cards layout */
+    .row.row-cols-4 {
+        --bs-columns: 1 !important;
+    }
+
+    /* Icons smaller */
+    .icp div i {
+        width: 55px;
+        padding: 12px;
+        font-size: 20px;
+    }
+
+    /* Footer smaller */
+    .cop {
+        padding-right: 0;
+    }
+}
